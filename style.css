@@ -156,6 +156,11 @@ body{
     width:40%;
     overflow-y: scroll;
 }
+.wrap_result_hard{
+    position: absolute;
+    max-width: 100%;
+    max-height:100%;
+}
 .Example_wave{
     position: fixed;
     top:0;

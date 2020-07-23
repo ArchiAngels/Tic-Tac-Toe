@@ -262,7 +262,8 @@ create_cnv = (options) =>{
 create_helper_left = () =>{
     let html = `
 <div class = "helper_win">
-    <div class ='wrap_result_helper'>`;
+    <div class ='wrap_result_helper'>
+        <div class = 'wrap_result_hard'>`;
      for(let k in history_about_game){
 
         html += `
@@ -279,6 +280,7 @@ create_helper_left = () =>{
 
     html += `
             <p class = 'header_ol'>Exit</p>
+        </div>
     </div>
     <div class = "Example_wave">
         <div class = 'wrap_game_example'>
